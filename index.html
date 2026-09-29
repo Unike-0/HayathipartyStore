@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hayathi Balloons & Party Store | Bespoke Balloon Decor in Jubilee Hills, Hyderabad</title>
+<meta name="description" content="Hyderabad's Trusted Destination for Bespoke Balloon Decor & Milestone Celebrations. 1st Birthdays, 50th Milestones, Theme Decor & Party Supplies in Jubilee Hills. 4.6★ (94+ reviews). Open 7 Days 9AM-11PM. Call +91 93985 75668">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        linen: '#FFFBF3',
+        cream: '#FFF7EA',
+        gold: '#C9A24B',
+        golddeep: '#9C7A2E',
+        champagne: '#F3E6C8',
+        navy: '#0E2A52',
+        celebration: '#1E4B9B',
+        skysoft: '#E8EFFB',
+        rosebrand: '#E85D75',
+        blush: '#FFF0F2',
+        blushdeep: '#F9C5D0',
+        ink: '#1A1A23'
+      },
+      fontFamily: {
+        serif: ['Fraunces','Playfair Display','serif'],
+        sans: ['"Plus Jakarta Sans"','Inter','sans-serif']
+      },
+      boxShadow: {
+        luxe: '0 20px 60px -15px rgba(14,42,82,0.18)',
+        card: '0 10px 40px -10px rgba(0,0,0,0.12)',
+        gold: '0 8px 30px -6px rgba(201,162,75,0.5)'
+      }
+    }
+  }
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","@id":"https://hayathiballoons.in","name":"Hayathi Balloons & Party Store","slogan":"Hyderabad's Trusted Destination for Bespoke Balloon Decor & Milestone Celebrations","description":"Event Management, Theme-Based Party & Balloon Decoration, Party Retail in Jubilee Hills, Hyderabad.","telephone":"+91 93985 75668","priceRange":"₹₹","currenciesAccepted":"INR","address":{"@type":"PostalAddress","streetAddress":"Shop No 22/a, Metro Pillar No 1572, Near Road No. 5 & Annapurna Studios Annexe, Jubilee Hills","addressLocality":"Hyderabad","addressRegion":"Telangana","postalCode":"500033","addressCountry":"IN"},"geo":{"@type":"GeoCoordinates","latitude":17.4274,"longitude":78.4505},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"09:00","closes":"23:00"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.6","reviewCount":"94"},"areaServed":["Jubilee Hills","Banjara Hills","Madhapur","Gachibowli","Srinagar Colony","Greater Hyderabad"]}
+</script>
+<style>
+html{scroll-behavior:smooth}
+body{background:#FFFBF3;color:#1A1A23;font-family:'Plus Jakarta Sans',sans-serif;overflow-x:hidden}
+.font-serif{font-family:'Fraunces',serif}
+.gold-text{background:linear-gradient(135deg,#9C7A2E 0%,#C9A24B 25%,#F3E6C8 50%,#C9A24B 75%,#9C7A2E 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-size:200% auto;animation:shine 4s linear infinite}
+@keyframes shine{to{background-position:200% center}}
+.hero-pattern{background-image:radial-gradient(#C9A24B 1.1px, transparent 1.1px);background-size:22px 22px;opacity:.12}
+.float-balloon{animation:floatY 6s ease-in-out infinite}
+.float-balloon2{animation:floatY 7.5s ease-in-out infinite reverse}
+@keyframes floatY{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-22px) rotate(3deg)}}
+.marquee-track{display:flex;gap:2rem;animation:marquee 22s linear infinite;width:max-content}
+@keyframes marquee{to{transform:translateX(-50%)}}
+.card-hover{transition:all .4s cubic-bezier(.2,.8,.2,1)}
+.card-hover:hover{transform:translateY(-8px);box-shadow:0 20px 60px -15px rgba(14,42,82,.22)}
+.img-zoom img{transition:transform .8s ease}
+.img-zoom:hover img{transform:scale(1.08)}
+.filter-btn.active{background:#0E2A52!important;color:#fff!important;border-color:#0E2A52!important}
+.reveal{opacity:0;transform:translateY(40px)}
+.ticker-dot{width:6px;height:6px;border-radius:9999px;background:#C9A24B;flex-shrink:0}
+.spin-slow{animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.glass{background:rgba(255,255,255,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.gold-border{position:relative}
+.gold-border::after{content:'';position:absolute;inset:0;border-radius:inherit;padding:1.5px;background:linear-gradient(135deg,#F3E6C8,#C9A24B,#F3E6C8);-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
+.faq-answer{max-height:0;overflow:hidden;transition:max-height .45s ease}
+.faq-item.open .faq-answer{max-height:320px}
+.faq-item.open .faq-icon{transform:rotate(45deg);background:#0E2A52;color:#fff}
+.faq-icon{transition:transform .3s, background .3s}
+.review-track{transition:transform .6s cubic-bezier(.2,.8,.2,1)}
+.no-scrollbar::-webkit-scrollbar{display:none}
+.no-scrollbar{scrollbar-width:none;-ms-overflow-style:none}
+.balloon-string{width:1px;height:60px;background:linear-gradient(to bottom,rgba(0,0,0,.3),transparent);margin:0 auto}
+@media(max-width:768px){body{padding-bottom:72px}}
+.pulse-ring{position:relative}
+.pulse-ring::before{content:'';position:absolute;inset:-4px;border-radius:9999px;border:2px solid #25D366;animation:pulseRing 1.8s ease-out infinite;pointer-events:none}
+@keyframes pulseRing{0%{transform:scale(.95);opacity:1}100%{transform:scale(1.25);opacity:0}}
+.shimmer{position:relative;overflow:hidden}
+.shimmer::after{content:'';position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.5),transparent);animation:shimmer 2.8s infinite;pointer-events:none}
+@keyframes shimmer{to{left:120%}}
+.btn-press:active{transform:scale(.97)}
+input,select{transition:all .2s}
+.chip{transition:all .3s}
+.chip:hover{transform:translateY(-2px)}
+#lightbox,#cartDrawer{transition:opacity .3s}
+.arch-shape{border-radius:999px 999px 24px 24px}
+.dotted-line{background-image:linear-gradient(to right,#C9A24B 40%,transparent 40%);background-size:10px 1.5px;background-repeat:repeat-x;height:1.5px}
+</style>
+</head>
+<body class="antialiased" id="top-body">
+
+<!-- TOP ANNOUNCEMENT -->
+<div class="bg-navy text-white text-[12px] md:text-[13px] py-2 px-4 relative z-[60]">
+  <div class="max-w-7xl mx-auto flex items-center justify-center md:justify-between gap-3">
+    <p class="hidden md:flex items-center gap-2 text-champagne"><i class="fa-solid fa-location-dot text-gold"></i> Jubilee Hills • Banjara Hills • Madhapur • Gachibowli • Srinagar Colony</p>
+    <p class="flex items-center gap-2 font-semibold tracking-wide text-center"><span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span> NOW BOOKING — This weekend slots filling fast <a href="#booking" class="underline underline-offset-2 text-champagne hover:text-white">Check Availability →</a></p>
+    <p class="hidden md:flex items-center gap-2"><i class="fa-regular fa-clock text-gold"></i> Open 7 Days • 9 AM – 11 PM</p>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header id="header" class="sticky top-0 z-50 transition-all duration-300 bg-linen/92 backdrop-blur-xl border-b border-gold/20" style="background:rgba(255,251,243,.92)">
+  <div class="max-w-7xl mx-auto px-4 md:px-6 py-3 flex items-center justify-between gap-3">
+    <a href="#top" class="flex items-center gap-3 group">
+      <div class="relative w-11 h-11 md:w-12 md:h-12 shrink-0">
+        <div class="absolute inset-0 bg-gradient-to-br from-rosebrand via-[#F9A8B8] to-gold rounded-2xl rotate-6 group-hover:rotate-12 transition-transform"></div>
+        <div class="absolute inset-0 bg-navy rounded-2xl flex items-center justify-center text-white text-xl"><i class="fa-solid fa-balloon"></i></div>
+      </div>
+      <div class="leading-tight">
+        <h1 class="font-serif font-black text-[18px] md:text-[22px] text-navy tracking-tight">Hayathi <span class="gold-text">Balloons</span></h1>
+        <p class="text-[10px] md:text-[11px] font-bold tracking-[0.18em] uppercase text-golddeep">& Party Store • Hyderabad</p>
+      </div>
+    </a>
+    <nav class="hidden lg:flex items-center gap-7 text-[14px] font-semibold text-navy/80" aria-label="Primary">
+      <a href="#services" class="hover:text-rosebrand transition">Milestone Birthdays</a>
+      <a href="#themes" class="hover:text-rosebrand transition">Theme Decor</a>
+      <a href="#store" class="hover:text-rosebrand transition">Store & Supplies</a>
+      <a href="#setups" class="hover:text-rosebrand transition">Real Setups</a>
+      <a href="#reviews" class="hover:text-rosebrand transition">Reviews</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="tel:+919398575668" class="hidden md:flex items-center gap-2 border border-navy/20 bg-white rounded-full px-4 py-2.5 text-sm font-bold text-navy hover:border-navy transition btn-press"><i class="fa-solid fa-phone text-celebration"></i> +91 93985 75668</a>
+      <a href="https://wa.me/919398575668?text=Hi%20Hayathi%20Balloons!%20I%20want%20to%20check%20availability%20for%20my%20event%20date." target="_blank" rel="noopener" class="flex items-center gap-2 bg-[#1DA851] hover:bg-[#128C43] text-white rounded-full px-4 md:px-5 py-2.5 text-sm font-bold shadow-lg transition shimmer btn-press"><i class="fa-brands fa-whatsapp text-lg"></i> <span class="hidden sm:inline">WhatsApp</span><span class="sm:hidden">Chat</span></a>
+      <button id="menuBtn" aria-label="Open menu" class="lg:hidden w-10 h-10 rounded-full bg-navy text-white flex items-center justify-center"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="hidden lg:hidden bg-white border-t border-gray-100 px-6 py-4 space-y-1 font-semibold text-navy shadow-xl">
+    <a href="#services" class="block py-3 border-b border-gray-100 flex justify-between items-center">Milestone Birthdays <i class="fa-solid fa-chevron-right text-xs text-gray-300"></i></a>
+    <a href="#themes" class="block py-3 border-b border-gray-100 flex justify-between items-center">Theme Decor <i class="fa-solid fa-chevron-right text-xs text-gray-300"></i></a>
+    <a href="#store" class="block py-3 border-b border-gray-100 flex justify-between items-center">Store & Supplies <i class="fa-solid fa-chevron-right text-xs text-gray-300"></i></a>
+    <a href="#setups" class="block py-3 border-b border-gray-100 flex justify-between items-center">Real Setups <i class="fa-solid fa-chevron-right text-xs text-gray-300"></i></a>
+    <a href="#reviews" class="block py-3 border-b border-gray-100 flex justify-between items-center">Reviews <i class="fa-solid fa-chevron-right text-xs text-gray-300"></i></a>
+    <a href="tel:+919398575668" class="flex items-center gap-2 py-3 text-celebration"><i class="fa-solid fa-phone"></i> +91 93985 75668</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="top" class="relative overflow-hidden">
+  <div class="absolute inset-0 hero-pattern"></div>
+  <div class="absolute -top-20 -right-20 w-[500px] h-[500px] bg-gradient-to-br from-blush to-champagne rounded-full blur-[100px] opacity-70 pointer-events-none"></div>
+  <div class="absolute top-40 -left-32 w-[400px] h-[400px] bg-skysoft rounded-full blur-[90px] opacity-80 pointer-events-none"></div>
+  <div class="absolute top-10 left-[6%] float-balloon opacity-90 hidden md:block"><div class="w-14 h-[70px] bg-gradient-to-br from-rosebrand to-[#F9A8B8] rounded-full shadow-card"></div><div class="balloon-string"></div></div>
+  <div class="absolute top-24 right-[8%] float-balloon2 opacity-90 hidden md:block"><div class="w-12 h-[60px] bg-gradient-to-br from-celebration to-[#7BA7FF] rounded-full shadow-card"></div><div class="balloon-string"></div></div>
+  <div class="absolute bottom-20 left-[3%] float-balloon2 opacity-70 hidden lg:block"><div class="w-10 h-[52px] bg-gradient-to-br from-gold to-champagne rounded-full shadow-card"></div><div class="balloon-string"></div></div>
+
+  <div class="max-w-7xl mx-auto px-4 md:px-6 pt-8 md:pt-14 pb-10 grid lg:grid-cols-2 gap-10 items-center relative">
+    <div class="reveal">
+      <div class="inline-flex items-center gap-2 bg-white border border-gold/30 rounded-full pl-1.5 pr-4 py-1.5 shadow-sm mb-5">
+        <span class="bg-navy text-white text-[11px] font-bold px-3 py-1 rounded-full flex items-center gap-1"><i class="fa-solid fa-star text-gold text-[10px]"></i> 4.6</span>
+        <span class="text-[12px] md:text-[13px] font-semibold text-navy">94+ Google Reviews • Jubilee Hills' Trusted Decor Studio</span>
+      </div>
+      <h2 class="font-serif text-[36px] leading-[1.05] md:text-[58px] font-black text-navy tracking-tight">Hyderabad's Trusted Destination for <span class="italic font-medium text-rosebrand">Bespoke Balloon</span> <span class="gold-text">Decor & Milestones</span></h2>
+      <p class="mt-4 text-[15px] md:text-[17px] text-gray-600 leading-relaxed max-w-xl">From dreamy <strong class="text-navy">1st birthdays</strong> to luxe <strong class="text-navy">50th milestones</strong> — on-time setup, transparent pricing & 1200+ verified celebrations across Greater Hyderabad.</p>
+      <div class="mt-3 flex items-center gap-2 text-[12px] font-bold tracking-wide uppercase text-golddeep"><span class="dotted-line w-10"></span> Event Management • Theme Decor • Party Retail</div>
+      <div class="mt-5 grid grid-cols-3 gap-2 md:gap-3 max-w-xl">
+        <div class="bg-white rounded-2xl p-3 border border-gray-100 shadow-sm text-center card-hover"><i class="fa-solid fa-clock-rotate-left text-celebration text-lg"></i><p class="text-[11px] md:text-[12px] font-bold text-navy mt-1 leading-tight">On-Time Setup<br>Guarantee</p></div>
+        <div class="bg-white rounded-2xl p-3 border border-gray-100 shadow-sm text-center card-hover"><i class="fa-solid fa-receipt text-golddeep text-lg"></i><p class="text-[11px] md:text-[12px] font-bold text-navy mt-1 leading-tight">Transparent<br>Pricing</p></div>
+        <div class="bg-white rounded-2xl p-3 border border-gray-100 shadow-sm text-center card-hover"><i class="fa-solid fa-camera-retro text-rosebrand text-lg"></i><p class="text-[11px] md:text-[12px] font-bold text-navy mt-1 leading-tight">1200+ Real<br>Setups</p></div>
+      </div>
+      <div class="mt-6 flex flex-col sm:flex-row gap-3">
+        <a href="https://wa.me/919398575668?text=Hi!%20I%20want%20to%20check%20date%20availability%20for%20balloon%20decoration.%20My%20event%20date%20is%3A%20___" target="_blank" rel="noopener" onclick="celebrate(event)" class="flex-1 sm:flex-none inline-flex justify-center items-center gap-2 bg-navy hover:bg-celebration text-white font-bold px-7 py-4 rounded-full shadow-luxe transition text-[15px] btn-press"><i class="fa-brands fa-whatsapp text-xl text-[#4ADE80]"></i> Check Date on WhatsApp</a>
+        <a href="#setups" class="inline-flex justify-center items-center gap-2 bg-white border-2 border-navy/10 hover:border-gold font-bold px-7 py-4 rounded-full text-navy transition text-[15px] btn-press"><i class="fa-solid fa-images text-rosebrand"></i> View Real Setups</a>
+      </div>
+      <div class="mt-4 flex items-center gap-3 text-[13px] text-gray-500">
+        <div class="flex -space-x-2">
+          <img src="https://i.pravatar.cc/64?img=47" class="w-8 h-8 rounded-full border-2 border-white object-cover" alt="Happy customer" loading="lazy">
+          <img src="https://i.pravatar.cc/64?img=32" class="w-8 h-8 rounded-full border-2 border-white object-cover" alt="Happy customer" loading="lazy">
+          <img src="https://i.pravatar.cc/64?img=12" class="w-8 h-8 rounded-full border-2 border-white object-cover" alt="Happy customer" loading="lazy">
+          <div class="w-8 h-8 rounded-full bg-navy text-white text-[10px] font-bold flex items-center justify-center border-2 border-white">1k+</div>
+        </div>
+        <p><strong class="text-navy">1200+ families</strong> celebrated with us in Jubilee Hills, Banjara Hills & Madhapur</p>
+      </div>
+    </div>
+
+    <div class="relative reveal">
+      <div class="grid grid-cols-2 gap-3 md:gap-4">
+        <div class="space-y-3 md:space-y-4 mt-8">
+          <div class="img-zoom rounded-[24px] overflow-hidden shadow-luxe border-4 border-white rotate-[-2deg]">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=600&q=80" alt="Pastel balloon arch first birthday" class="w-full h-[220px] md:h-[280px] object-cover">
+          </div>
+          <div class="bg-navy text-white rounded-[20px] p-4 shadow-luxe rotate-[1deg]">
+            <p class="text-[11px] tracking-widest uppercase text-champagne font-bold">This Week</p>
+            <p class="font-serif font-bold text-[18px] leading-tight mt-1">50th Golden Milestone @ Banjara Hills</p>
+            <p class="text-[12px] text-white/70 mt-1 flex items-center gap-1"><i class="fa-solid fa-circle-check text-green-400"></i> Setup done in 2.5 hrs • On-time</p>
+          </div>
+        </div>
+        <div class="space-y-3 md:space-y-4">
+          <div class="bg-white rounded-[20px] p-4 shadow-card border border-gold/20 rotate-[2deg] flex items-center gap-3">
+            <div class="w-12 h-12 rounded-full bg-blush flex items-center justify-center text-rosebrand text-xl shrink-0"><i class="fa-solid fa-cake-candles"></i></div>
+            <div><p class="font-bold text-navy text-[14px]">1st Birthday Specialists</p><p class="text-[12px] text-gray-500">Pastel • Jungle • Princess</p></div>
+          </div>
+          <div class="img-zoom rounded-[24px] overflow-hidden shadow-luxe border-4 border-white rotate-[2deg]">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=600&q=80" alt="Luxury balloon birthday setup" class="w-full h-[260px] md:h-[320px] object-cover">
+          </div>
+        </div>
+      </div>
+      <div class="absolute -bottom-6 left-1/2 -translate-x-1/2 md:left-auto md:-left-6 md:translate-x-0 md:-bottom-6">
+        <div class="relative w-[110px] h-[110px]">
+          <svg viewBox="0 0 100 100" class="w-full h-full spin-slow"><defs><path id="circlePath" d="M50,50 m-37,0 a37,37 0 1,1 74,0 a37,37 0 1,1 -74,0"/></defs><text font-size="10.5" font-weight="800" letter-spacing="2.5" fill="#0E2A52"><textPath href="#circlePath">OPEN 7 DAYS • 9AM - 11PM • HAYATHI •</textPath></text></svg>
+          <div class="absolute inset-0 flex items-center justify-center"><div class="w-12 h-12 bg-gold rounded-full flex items-center justify-center text-white text-xl shadow-gold"><i class="fa-solid fa-store"></i></div></div>
+        </div>
+      </div>
+      <div class="absolute top-2 -left-2 md:-left-8 glass border border-white shadow-card rounded-2xl px-4 py-3 flex items-center gap-3 float-balloon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" class="w-7 h-7" alt="Google rating" loading="lazy">
+        <div><p class="font-extrabold text-navy text-[14px] leading-none">4.6 ★★★★★</p><p class="text-[11px] text-gray-500 mt-1">94+ verified reviews</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-navy py-3 overflow-hidden mt-6 relative">
+    <div class="marquee-track text-[13px] font-bold tracking-[0.15em] uppercase text-champagne whitespace-nowrap">
+      <span class="flex items-center gap-8"><span>1st Birthdays</span><span class="ticker-dot"></span><span>50th Milestones</span><span class="ticker-dot"></span><span>Organic Garlands</span><span class="ticker-dot"></span><span>Chrome Luxe</span><span class="ticker-dot"></span><span>Baby Shower</span><span class="ticker-dot"></span><span>Anniversary</span><span class="ticker-dot"></span><span>Helium Store</span><span class="ticker-dot"></span><span>Same-Day Setup</span><span class="ticker-dot"></span></span>
+      <span class="flex items-center gap-8" aria-hidden="true"><span>1st Birthdays</span><span class="ticker-dot"></span><span>50th Milestones</span><span class="ticker-dot"></span><span>Organic Garlands</span><span class="ticker-dot"></span><span>Chrome Luxe</span><span class="ticker-dot"></span><span>Baby Shower</span><span class="ticker-dot"></span><span>Anniversary</span><span class="ticker-dot"></span><span>Helium Store</span><span class="ticker-dot"></span><span>Same-Day Setup</span><span class="ticker-dot"></span></span>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="max-w-7xl mx-auto px-4 md:px-6 -mt-0 py-8">
+  <div class="bg-white rounded-[28px] shadow-card border border-gold/20 grid grid-cols-2 md:grid-cols-4 divide-x divide-y md:divide-y-0 divide-gray-100 overflow-hidden reveal">
+    <div class="p-6 text-center"><p class="font-serif font-black text-3xl md:text-4xl text-navy"><span class="counter" data-target="1200">0</span>+</p><p class="text-[12px] font-bold uppercase tracking-widest text-golddeep mt-1">Setups Delivered</p></div>
+    <div class="p-6 text-center"><p class="font-serif font-black text-3xl md:text-4xl text-navy"><span class="counter" data-target="94">0</span>+</p><p class="text-[12px] font-bold uppercase tracking-widest text-golddeep mt-1">Google Reviews</p></div>
+    <div class="p-6 text-center"><p class="font-serif font-black text-3xl md:text-4xl text-navy">4.6<i class="fa-solid fa-star text-gold text-2xl ml-1"></i></p><p class="text-[12px] font-bold uppercase tracking-widest text-golddeep mt-1">Average Rating</p></div>
+    <div class="p-6 text-center"><p class="font-serif font-black text-3xl md:text-4xl text-navy"><span class="counter" data-target="7">0</span> Days</p><p class="text-[12px] font-bold uppercase tracking-widest text-golddeep mt-1">Open 9AM–11PM</p></div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-14">
+  <div class="text-center max-w-2xl mx-auto reveal">
+    <p class="text-[12px] font-extrabold tracking-[0.25em] uppercase text-rosebrand">Signature Services</p>
+    <h2 class="font-serif font-black text-[30px] md:text-[46px] text-navy leading-tight mt-2">Everything for a <span class="italic text-celebration">Picture-Perfect</span> Party</h2>
+    <p class="text-gray-500 mt-3 text-[14px] md:text-[16px]">Accessible Premium — high-end aesthetics at transparent, competitive local rates. No hidden charges, ever.</p>
+  </div>
+
+  <div id="themes" class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8 scroll-mt-24">
+    <div class="reveal bg-white rounded-[26px] overflow-hidden shadow-card border border-gray-100 card-hover flex flex-col">
+      <div class="relative img-zoom h-[210px] overflow-hidden"><img loading="lazy" src="https://images.unsplash.com/photo-1464349153735-7db50ed83c84?auto=format&fit=crop&w=700&q=80" class="w-full h-full object-cover" alt="Milestone birthdays"><span class="absolute top-3 left-3 bg-navy text-white text-[11px] font-bold px-3 py-1.5 rounded-full">MOST BOOKED</span><span class="absolute bottom-3 right-3 bg-white/90 backdrop-blur px-3 py-1.5 rounded-full text-[12px] font-bold text-navy">From ₹4,999</span></div>
+      <div class="p-6 flex-1 flex flex-col"><h3 class="font-serif font-bold text-[22px] text-navy">Milestone Birthdays</h3><p class="text-[13px] text-golddeep font-bold tracking-wide uppercase mt-1">1st • 16th • 30th • 50th • 60th</p>
+        <ul class="mt-3 space-y-2 text-[14px] text-gray-600"><li class="flex gap-2"><i class="fa-solid fa-check text-green-600 mt-1"></i> Number / milestone balloon arch + backdrop</li><li class="flex gap-2"><i class="fa-solid fa-check text-green-600 mt-1"></i> Cake table styling + LED name lights</li><li class="flex gap-2"><i class="fa-solid fa-check text-green-600 mt-1"></i> Ideal: Home, banquet, terrace parties</li></ul>
+        <a href="https://wa.me/919398575668?text=Hi!%20I%20need%20Milestone%20Birthday%20decor.%20Date%3A%20__%20Venue%3A%20__" target="_blank" rel="noopener" class="mt-5 inline-flex justify-center items-center gap-2 bg-blush hover:bg-rosebrand hover:text-white text-rosebrand font-bold py-3 rounded-full transition text-[14px]">Check Date <i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="reveal bg-white rounded-[26px] overflow-hidden shadow-card border border-gray-100 card-hover flex flex-col">
+      <div class="relative img-zoom h-[210px] overflow-hidden"><img loading="lazy" src="https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=700&q=80" class="w-full h-full object-cover" alt="Kids theme decor"><span class="absolute top-3 left-3 bg-rosebrand text-white text-[11px] font-bold px-3 py-1.5 rounded-full">KIDS FAVOURITE</span><span class="absolute bottom-3 right-3 bg-white/90 backdrop-blur px-3 py-1.5 rounded-full text-[12px] font-bold text-navy">From ₹6,999</span></div>
+      <div class="p-6 flex-1 flex flex-col"><h3 class="font-serif font-bold text-[22px] text-navy">Kids Theme Decor</h3><p class="text-[13px] text-golddeep font-bold tracking-wide uppercase mt-1">Jungle • Princess • Superhero • Cocomelon</p>
+        <ul class="mt-3 space-y-2 text-[14px] text-gray-600"><li class="flex gap-2"><i class="fa-solid fa-check text-green-600 mt-1"></i> Character cutouts + themed balloon garland</li><li class="flex gap-2"><i class="fa-solid fa-check text-green-600 mt-1"></i> Entry arch + photo booth props</li><li class="flex gap-2"><i class="fa-solid fa-check text-green-600 mt-1"></i> Ideal: 1–10 yrs birthday bashes</li></ul>
+        <a href="https://wa.me/919398575668?text=Hi!%20I%20need%20Kids%20Theme%20decor%20(Jungle%2FPrincess%2FSuperhero).%20Age%3A%20__%20Date%3A%20__" target="_blank" rel="noopener" class="mt-5 inline-flex justify-center items-center gap-2 bg-blush hover:bg-rosebrand hover:text-white text-rosebrand font-bold py-3 rounded-full transition text-[14px]">Check Date <i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="reveal bg-white rounded-[26px] overflow-hidden shadow-card border border-gold/30 card-hover flex flex-col ring-2 ring-gold/30">
+      <div class="relative img-zoom h-[210px] overflow-hidden"><img loading="lazy" src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=700&q=80" class="w-full h-full object-cover" alt="Baby shower"><span class="absolute top-3 left-3 bg-gold text-white text-[11px] font-bold px-3 py-1.5 rounded-full">SIGNATURE LUXE</span><span class="absolute bottom-3 right-3 bg-white/90 backdrop-blur px-3 py-1.5 rounded-full text-[12px] font-bold text-navy">From ₹5,999</span></div>
+      <div class="p-6 flex-1 flex flex-col"><h3 class="font-serif font-bold text-[22px] text-navy">Baby Shower & Welcome Baby</h3><p class="text-[13px] text-golddeep font-bold tracking-wide uppercase mt-1">Pastel • Blue / Pink • Gender Reveal</p>
+        <ul class="mt-3 space-y-2 text-[14px] text-gray-600"><li class="flex gap-2"><i class="fa-solid fa-check text-green-600 mt-1"></i> Organic pastel garland + BABY boxes</li><li class="flex gap-2"><i class="fa-solid fa-check text-green-600 mt-1"></i> Mom-to-be chair styling + sash</li><li class="flex gap-2"><i class="fa-solid fa-check text-green-600 mt-1"></i> Ideal: Home, villa, banquet brunch</li></ul>
+        <a href="https://wa.me/919398575668?text=Hi!%20I%20need%20Baby%20Shower%20decor.%20Date%3A%20__%20Theme%20color%3A%20__" target="_blank" rel="noopener" class="mt-5 inline-flex justify-center items-center gap-2 bg-navy hover:bg-celebration text-white font-bold py-3 rounded-full transition text-[14px]">Check Date <i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="reveal bg-white rounded-[26px] overflow-hidden shadow-card border border-gray-100 card-hover flex flex-col">
+      <div class="relative img-zoom h-[210px] overflow-hidden"><img loading="lazy" src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=700&q=80" class="w-full h-full object-cover" alt="Anniversary"><span class="absolute top-3 left-3 bg-celebration text-white text-[11px] font-bold px-3 py-1.5 rounded-full">ROMANTIC</span><span class="absolute bottom-3 right-3 bg-white/90 backdrop-blur px-3 py-1.5 rounded-full text-[12px] font-bold text-navy">From ₹3,999</span></div>
+      <div class="p-6 flex-1 flex flex-col"><h3 class="font-serif font-bold text-[22px] text-navy">Anniversary & Romantic</h3><p class="text-[13px] text-golddeep font-bold tracking-wide uppercase mt-1">Rose Gold • Red & Gold • Surprise Room</p>
+        <ul class="mt-3 space-y-2 text-[14px] text-gray-600"><li class="flex gap-2"><i class="fa-solid fa-check text-green-600 mt-1"></i> Heart arch + LED love letters + candles</li><li class="flex gap-2"><i class="fa-solid fa-check text-green-600 mt-1"></i> Bed / room surprise styling</li><li class="flex gap-2"><i class="fa-solid fa-check text-green-600 mt-1"></i> Ideal: Date nights, 25th / 50th anniversary</li></ul>
+        <a href="https://wa.me/919398575668?text=Hi!%20I%20need%20Anniversary%20%2F%20Romantic%20setup.%20Date%3A%20__" target="_blank" rel="noopener" class="mt-5 inline-flex justify-center items-center gap-2 bg-blush hover:bg-rosebrand hover:text-white text-rosebrand font-bold py-3 rounded-full transition text-[14px]">Check Date <i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="reveal bg-white rounded-[26px] overflow-hidden shadow-card border border-gray-100 card-hover flex flex-col">
+      <div class="relative img-zoom h-[210px] overflow-hidden"><img loading="lazy" src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=700&q=80" class="w-full h-full object-cover" alt="Corporate"><span class="absolute top-3 left-3 bg-white text-navy text-[11px] font-bold px-3 py-1.5 rounded-full border">CORPORATE</span><span class="absolute bottom-3 right-3 bg-white/90 backdrop-blur px-3 py-1.5 rounded-full text-[12px] font-bold text-navy">Custom Quote</span></div>
+      <div class="p-6 flex-1 flex flex-col"><h3 class="font-serif font-bold text-[22px] text-navy">Corporate & Launches</h3><p class="text-[13px] text-golddeep font-bold tracking-wide uppercase mt-1">Store Launch • Office Party • Festive</p>
+        <ul class="mt-3 space-y-2 text-[14px] text-gray-600"><li class="flex gap-2"><i class="fa-solid fa-check text-green-600 mt-1"></i> Branded balloon arch + logo wall</li><li class="flex gap-2"><i class="fa-solid fa-check text-green-600 mt-1"></i> Bulk helium + stage decor</li><li class="flex gap-2"><i class="fa-solid fa-check text-green-600 mt-1"></i> Ideal: Offices, retail, malls</li></ul>
+        <a href="https://wa.me/919398575668?text=Hi!%20I%20need%20Corporate%20%2F%20Store%20launch%20decor.%20Details%3A%20__" target="_blank" rel="noopener" class="mt-5 inline-flex justify-center items-center gap-2 bg-blush hover:bg-rosebrand hover:text-white text-rosebrand font-bold py-3 rounded-full transition text-[14px]">Get Quote <i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="reveal bg-gradient-to-br from-navy to-celebration rounded-[26px] overflow-hidden shadow-luxe card-hover flex flex-col text-white relative">
+      <div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image:radial-gradient(white 1px, transparent 1px);background-size:18px 18px"></div>
+      <div class="p-6 flex-1 flex flex-col relative">
+        <span class="self-start bg-gold text-navy text-[11px] font-extrabold px-3 py-1.5 rounded-full">WALK-IN STORE • ROAD NO.5</span>
+        <h3 class="font-serif font-bold text-[24px] mt-3">Party Store & Last-Minute Supplies</h3>
+        <p class="text-[13px] text-white/70 mt-1">Helium • Foil Numbers • Cake Toppers • LED Lights</p>
+        <ul class="mt-4 space-y-2 text-[14px] text-white/90"><li class="flex gap-2"><i class="fa-solid fa-bolt text-gold mt-1"></i> Same-day helium filling in-store</li><li class="flex gap-2"><i class="fa-solid fa-bolt text-gold mt-1"></i> DIY kits from ₹499 • Ready in 15 mins</li><li class="flex gap-2"><i class="fa-solid fa-bolt text-gold mt-1"></i> Open 7 days till 11 PM — even Sundays!</li></ul>
+        <div class="mt-5 grid grid-cols-2 gap-2">
+          <a href="#store" class="inline-flex justify-center items-center gap-2 bg-white text-navy font-bold py-3 rounded-full text-[14px] hover:bg-champagne transition">Shop Supplies</a>
+          <a href="https://wa.me/919398575668?text=Hi!%20Is%20helium%20filling%20available%20today%20at%20store%3F" target="_blank" rel="noopener" class="inline-flex justify-center items-center gap-2 bg-[#1DA851] text-white font-bold py-3 rounded-full text-[14px] transition"><i class="fa-brands fa-whatsapp"></i> Ask Stock</a>
+        </div>
+      </div>
+      <img loading="lazy" src="https://images.unsplash.com/photo-1496843916299-590492c751f4?auto=format&fit=crop&w=700&q=80" class="h-[160px] w-full object-cover" alt="Party store">
+    </div>
+  </div>
+
+  <div class="mt-8 reveal">
+    <p class="text-center text-[12px] font-extrabold tracking-[0.25em] uppercase text-navy/60 mb-4">Signature Styles — Pick Your Vibe</p>
+    <div class="flex gap-3 overflow-x-auto no-scrollbar pb-2 justify-start md:justify-center">
+      <span class="chip shrink-0 bg-white border border-gold/30 rounded-full px-5 py-2.5 text-[13px] font-bold text-navy shadow-sm">✨ Chrome Luxe Gold</span>
+      <span class="chip shrink-0 bg-white border border-gold/30 rounded-full px-5 py-2.5 text-[13px] font-bold text-navy shadow-sm">🎈 Organic Garland Pastel</span>
+      <span class="chip shrink-0 bg-navy text-white rounded-full px-5 py-2.5 text-[13px] font-bold shadow-sm">💙 Celebration Blue Wall</span>
+      <span class="chip shrink-0 bg-white border border-gold/30 rounded-full px-5 py-2.5 text-[13px] font-bold text-navy shadow-sm">🌸 Blush Rose Dream</span>
+      <span class="chip shrink-0 bg-white border border-gold/30 rounded-full px-5 py-2.5 text-[13px] font-bold text-navy shadow-sm">🖤 Black & Gold Glam</span>
+      <span class="chip shrink-0 bg-white border border-gold/30 rounded-full px-5 py-2.5 text-[13px] font-bold text-navy shadow-sm">🌿 Jungle Safari</span>
+    </div>
+  </div>
+</section>
+
+<!-- REAL SETUPS -->
+<section id="setups" class="bg-white border-y border-gold/20 py-12 md:py-16 relative overflow-hidden scroll-mt-16">
+  <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] bg-gradient-to-b from-cream to-transparent blur-3xl opacity-60 pointer-events-none"></div>
+  <div class="max-w-7xl mx-auto px-4 md:px-6 relative">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 reveal">
+      <div><p class="text-[12px] font-extrabold tracking-[0.25em] uppercase text-rosebrand flex items-center gap-2"><span class="w-8 h-[2px] bg-rosebrand inline-block"></span> Verified Portfolio</p>
+        <h2 class="font-serif font-black text-[30px] md:text-[44px] text-navy leading-tight mt-2">Real Setups, <span class="italic text-celebration">Real Hyderabad Homes</span></h2>
+        <p class="text-gray-500 mt-2 text-[14px] md:text-[15px] max-w-xl">Every photo is from an actual Hayathi setup — Jubilee Hills villas, Banjara banquets & Madhapur apartments. Tap any look to book it.</p>
+      </div>
+      <div class="flex items-center gap-2 bg-cream border border-gold/30 rounded-full px-4 py-2 text-[13px] font-bold text-navy shrink-0"><i class="fa-solid fa-shield-halved text-green-600"></i> 100% Real Photos • No Stock Decor</div>
+    </div>
+    <div class="flex gap-2 overflow-x-auto no-scrollbar mt-6 pb-1 reveal" id="filterBar" role="tablist" aria-label="Filter setups">
+      <button data-filter="all" class="filter-btn active shrink-0 border border-gray-200 rounded-full px-5 py-2.5 text-[13px] font-bold text-navy bg-white transition">All Setups</button>
+      <button data-filter="first" class="filter-btn shrink-0 border border-gray-200 rounded-full px-5 py-2.5 text-[13px] font-bold text-navy bg-white transition">1st Birthday</button>
+      <button data-filter="milestone" class="filter-btn shrink-0 border border-gray-200 rounded-full px-5 py-2.5 text-[13px] font-bold text-navy bg-white transition">Milestone 30/50</button>
+      <button data-filter="kids" class="filter-btn shrink-0 border border-gray-200 rounded-full px-5 py-2.5 text-[13px] font-bold text-navy bg-white transition">Kids Theme</button>
+      <button data-filter="baby" class="filter-btn shrink-0 border border-gray-200 rounded-full px-5 py-2.5 text-[13px] font-bold text-navy bg-white transition">Baby Shower</button>
+      <button data-filter="anniversary" class="filter-btn shrink-0 border border-gray-200 rounded-full px-5 py-2.5 text-[13px] font-bold text-navy bg-white transition">Anniversary</button>
+      <button data-filter="corporate" class="filter-btn shrink-0 border border-gray-200 rounded-full px-5 py-2.5 text-[13px] font-bold text-navy bg-white transition">Corporate</button>
+    </div>
+    <div id="galleryGrid" class="grid grid-cols-2 lg:grid-cols-3 gap-3 md:gap-5 mt-6"></div>
+    <div class="text-center mt-8 reveal">
+      <p class="text-[13px] text-gray-500 mb-3">Liked a look? We can recreate it in your colours + budget.</p>
+      <a href="https://wa.me/919398575668?text=Hi!%20I%20saw%20your%20Real%20Setups%20gallery%20and%20want%20a%20similar%20look.%20Please%20share%20quote." target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-[#1DA851] text-white font-bold px-8 py-4 rounded-full shadow-lg hover:bg-[#128C43] transition btn-press"><i class="fa-brands fa-whatsapp text-xl"></i> Send Reference & Get Quote</a>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="max-w-7xl mx-auto px-4 md:px-6 py-12 md:py-16">
+  <div class="text-center max-w-2xl mx-auto reveal">
+    <p class="text-[12px] font-extrabold tracking-[0.25em] uppercase text-golddeep">Transparent Pricing</p>
+    <h2 class="font-serif font-black text-[30px] md:text-[44px] text-navy mt-2">No Guesswork. <span class="gold-text">Clear Breakdowns.</span></h2>
+    <p class="text-gray-500 mt-3 text-[14px]">Accessible Premium rates with itemised quotes on WhatsApp before you pay a single rupee.</p>
+  </div>
+  <div class="grid md:grid-cols-3 gap-5 mt-8">
+    <div class="reveal bg-white rounded-[26px] p-7 border border-gray-100 shadow-card card-hover">
+      <p class="text-[12px] font-extrabold tracking-widest uppercase text-celebration">Essential</p>
+      <h3 class="font-serif font-bold text-[24px] text-navy mt-1">Home Party</h3>
+      <p class="mt-2"><span class="font-serif font-black text-[36px] text-navy">₹4,999</span><span class="text-gray-500 text-[13px]"> onwards</span></p>
+      <ul class="mt-4 space-y-2.5 text-[14px] text-gray-600"><li class="flex gap-2"><i class="fa-solid fa-circle-check text-celebration mt-1"></i> 6ft balloon garland (50 balloons)</li><li class="flex gap-2"><i class="fa-solid fa-circle-check text-celebration mt-1"></i> Happy Birthday foil + curtain backdrop</li><li class="flex gap-2"><i class="fa-solid fa-circle-check text-celebration mt-1"></i> 2hr setup • Same-day possible</li><li class="flex gap-2 text-gray-400"><i class="fa-solid fa-circle-xmark mt-1"></i> Cake table styling not included</li></ul>
+      <a href="https://wa.me/919398575668?text=Hi!%20I%20want%20Essential%20Home%20Party%20package%20(₹4999%20onwards).%20Date%3A%20__" target="_blank" rel="noopener" class="mt-6 block text-center border-2 border-navy text-navy font-bold py-3 rounded-full hover:bg-navy hover:text-white transition text-[14px]">Book Essential</a>
+    </div>
+    <div class="reveal bg-navy rounded-[26px] p-7 shadow-luxe card-hover relative overflow-hidden text-white gold-border">
+      <span class="absolute top-4 right-4 bg-gold text-navy text-[11px] font-extrabold px-3 py-1 rounded-full">MOST LOVED</span>
+      <p class="text-[12px] font-extrabold tracking-widest uppercase text-champagne">Signature</p>
+      <h3 class="font-serif font-bold text-[24px] mt-1">Milestone Special</h3>
+      <p class="mt-2"><span class="font-serif font-black text-[36px] gold-text">₹9,999</span><span class="text-white/60 text-[13px]"> onwards</span></p>
+      <ul class="mt-4 space-y-2.5 text-[14px] text-white/90"><li class="flex gap-2"><i class="fa-solid fa-circle-check text-gold mt-1"></i> 10ft organic garland (100+ balloons, chrome mix)</li><li class="flex gap-2"><i class="fa-solid fa-circle-check text-gold mt-1"></i> Shimmer / pastel backdrop + LED name + numbers</li><li class="flex gap-2"><i class="fa-solid fa-circle-check text-gold mt-1"></i> Cake table + entry bunches + photo props</li><li class="flex gap-2"><i class="fa-solid fa-circle-check text-gold mt-1"></i> Free teardown + on-time guarantee</li></ul>
+      <a href="https://wa.me/919398575668?text=Hi!%20I%20want%20Signature%20Milestone%20package%20(₹9999%20onwards).%20Date%3A%20__%20Venue%3A%20__" target="_blank" rel="noopener" class="mt-6 block text-center bg-gold text-navy font-extrabold py-3.5 rounded-full hover:bg-champagne transition text-[14px] shimmer">Book Signature <i class="fa-brands fa-whatsapp ml-1"></i></a>
+    </div>
+    <div class="reveal bg-white rounded-[26px] p-7 border border-gray-100 shadow-card card-hover">
+      <p class="text-[12px] font-extrabold tracking-widest uppercase text-rosebrand">Luxe</p>
+      <h3 class="font-serif font-bold text-[24px] text-navy mt-1">Banquet Grandeur</h3>
+      <p class="mt-2"><span class="font-serif font-black text-[36px] text-navy">₹19,999</span><span class="text-gray-500 text-[13px]"> onwards</span></p>
+      <ul class="mt-4 space-y-2.5 text-[14px] text-gray-600"><li class="flex gap-2"><i class="fa-solid fa-circle-check text-rosebrand mt-1"></i> Full stage + balloon wall + double arch</li><li class="flex gap-2"><i class="fa-solid fa-circle-check text-rosebrand mt-1"></i> Florals + drapes + LED stage lights</li><li class="flex gap-2"><i class="fa-solid fa-circle-check text-rosebrand mt-1"></i> Dedicated event captain on-site</li><li class="flex gap-2"><i class="fa-solid fa-circle-check text-rosebrand mt-1"></i> Ideal: 50th, 1st birthday banquets</li></ul>
+      <a href="https://wa.me/919398575668?text=Hi!%20I%20want%20Luxe%20Banquet%20package%20(₹19999%20onwards).%20Please%20share%20breakdown." target="_blank" rel="noopener" class="mt-6 block text-center border-2 border-rosebrand text-rosebrand font-bold py-3 rounded-full hover:bg-rosebrand hover:text-white transition text-[14px]">Book Luxe</a>
+    </div>
+  </div>
+  <div class="reveal mt-5 bg-cream border border-gold/30 rounded-[20px] p-5 md:p-6 flex flex-col md:flex-row items-center justify-between gap-4">
+    <div class="flex items-start gap-3"><div class="w-11 h-11 rounded-full bg-white shadow flex items-center justify-center text-golddeep text-xl shrink-0"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+      <div><p class="font-bold text-navy text-[15px]">Every quote includes itemised breakdown</p><p class="text-[13px] text-gray-500">Balloons count • Backdrop size • Transport • Setup time • No hidden charges. Pay 30% advance to lock your date.</p></div>
+    </div>
+    <a href="#booking" class="shrink-0 bg-navy text-white font-bold px-6 py-3 rounded-full text-[14px] hover:bg-celebration transition btn-press">Get My Breakdown →</a>
+  </div>
+</section>
+
+<!-- HOW WE WORK -->
+<section class="bg-navy relative overflow-hidden py-12 md:py-16">
+  <div class="absolute inset-0 opacity-[0.07] pointer-events-none" style="background-image:radial-gradient(white 1px, transparent 1px);background-size:20px 20px"></div>
+  <div class="absolute -top-24 right-0 w-[400px] h-[400px] bg-rosebrand/20 rounded-full blur-[100px] pointer-events-none"></div>
+  <div class="max-w-7xl mx-auto px-4 md:px-6 relative">
+    <div class="text-center reveal"><p class="text-[12px] font-extrabold tracking-[0.25em] uppercase text-champagne">Punctual • Professional • Stress-Free</p><h2 class="font-serif font-black text-[30px] md:text-[44px] text-white mt-2">How We Work <span class="italic font-medium text-blushdeep">in 3 Easy Steps</span></h2></div>
+    <div class="grid md:grid-cols-3 gap-5 mt-8">
+      <div class="reveal bg-white/[0.06] backdrop-blur border border-white/10 rounded-[26px] p-7 text-white card-hover"><div class="flex items-center justify-between"><div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-rosebrand to-[#F9A8B8] flex items-center justify-center text-2xl shadow-lg"><i class="fa-brands fa-whatsapp"></i></div><span class="font-serif font-black text-[52px] text-white/10 leading-none">01</span></div><h3 class="font-serif font-bold text-[22px] mt-4">Share Date & Vision</h3><p class="text-white/70 text-[14px] mt-2 leading-relaxed">WhatsApp us your date, venue & a reference photo. We reply within <strong class="text-white">15 minutes</strong> (9AM–11PM) with availability + ideas.</p><div class="mt-4 bg-white/10 rounded-xl p-3 text-[12px] text-white/80 flex items-center gap-2"><i class="fa-solid fa-clock text-green-400"></i> Avg. response: 12 mins • 7 days a week</div></div>
+      <div class="reveal bg-white/[0.06] backdrop-blur border border-white/10 rounded-[26px] p-7 text-white card-hover"><div class="flex items-center justify-between"><div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-gold to-champagne flex items-center justify-center text-2xl text-navy shadow-lg"><i class="fa-solid fa-pen-ruler"></i></div><span class="font-serif font-black text-[52px] text-white/10 leading-none">02</span></div><h3 class="font-serif font-bold text-[22px] mt-4">Lock Design & Quote</h3><p class="text-white/70 text-[14px] mt-2 leading-relaxed">Get a <strong class="text-white">transparent itemised quote</strong> + digital design preview. Pay just 30% advance on UPI to block your slot.</p><div class="mt-4 bg-white/10 rounded-xl p-3 text-[12px] text-white/80 flex items-center gap-2"><i class="fa-solid fa-shield-halved text-gold"></i> Date locked • Written confirmation</div></div>
+      <div class="reveal bg-gradient-to-br from-[#1DA851] to-[#0E7A3A] rounded-[26px] p-7 text-white card-hover shadow-2xl"><div class="flex items-center justify-between"><div class="w-14 h-14 rounded-2xl bg-white flex items-center justify-center text-2xl text-green-700 shadow-lg"><i class="fa-solid fa-party-horn"></i></div><span class="font-serif font-black text-[52px] text-white/20 leading-none">03</span></div><h3 class="font-serif font-bold text-[22px] mt-4">We Setup On-Time, You Celebrate</h3><p class="text-white/90 text-[14px] mt-2 leading-relaxed">Team arrives <strong>3 hrs early</strong>, sets up spotless & shares photos. You walk into a ready-to-wow venue. Free teardown!</p><div class="mt-4 bg-white rounded-xl p-3 text-[12px] text-navy font-bold flex items-center gap-2"><i class="fa-solid fa-circle-check text-green-600"></i> On-Time Guarantee • Late = 10% OFF</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section id="booking" class="max-w-7xl mx-auto px-4 md:px-6 py-12 md:py-16 scroll-mt-20">
+  <div class="grid lg:grid-cols-2 gap-6 items-stretch">
+    <div class="reveal bg-gradient-to-br from-blush via-white to-cream rounded-[28px] border border-rosebrand/20 p-7 md:p-10 shadow-card relative overflow-hidden">
+      <div class="absolute -right-10 -top-10 w-48 h-48 bg-rosebrand/10 rounded-full blur-2xl pointer-events-none"></div>
+      <p class="text-[12px] font-extrabold tracking-[0.25em] uppercase text-rosebrand">Date Availability Check • 30 Seconds</p>
+      <h2 class="font-serif font-black text-[28px] md:text-[38px] text-navy leading-tight mt-2">Is Your Date <span class="italic text-rosebrand">Still Open?</span></h2>
+      <p class="text-gray-500 text-[14px] mt-2">Fill this — we'll open WhatsApp with your details pre-filled. No spam, no calls unless you ask.</p>
+      <form id="bookingForm" class="mt-6 space-y-4" novalidate>
+        <div class="grid grid-cols-2 gap-3">
+          <div><label for="fName" class="text-[12px] font-bold text-navy uppercase tracking-wide">Your Name</label><input id="fName" required type="text" placeholder="e.g. Priya Sharma" class="mt-1.5 w-full bg-white border border-gray-200 rounded-2xl px-4 py-3.5 text-[14px] font-medium focus:border-rosebrand focus:ring-2 focus:ring-rosebrand/20 outline-none"></div>
+          <div><label for="fPhone" class="text-[12px] font-bold text-navy uppercase tracking-wide">Phone</label><input id="fPhone" required type="tel" pattern="[0-9+ ]{10,15}" placeholder="98XXX XXXXX" class="mt-1.5 w-full bg-white border border-gray-200 rounded-2xl px-4 py-3.5 text-[14px] font-medium focus:border-rosebrand focus:ring-2 focus:ring-rosebrand/20 outline-none"></div>
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div><label for="fDate" class="text-[12px] font-bold text-navy uppercase tracking-wide">Event Date</label><input id="fDate" required type="date" class="mt-1.5 w-full bg-white border border-gray-200 rounded-2xl px-4 py-3.5 text-[14px] font-medium focus:border-rosebrand focus:ring-2 focus:ring-rosebrand/20 outline-none"></div>
+          <div><label for="fOccasion" class="text-[12px] font-bold text-navy uppercase tracking-wide">Occasion</label><select id="fOccasion" class="mt-1.5 w-full bg-white border border-gray-200 rounded-2xl px-4 py-3.5 text-[14px] font-medium focus:border-rosebrand outline-none"><option>1st Birthday</option><option>Kids Birthday</option><option>30th / 50th Milestone</option><option>Baby Shower</option><option>Anniversary</option><option>Corporate / Launch</option><option>Other</option></select></div>
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div><label for="fArea" class="text-[12px] font-bold text-navy uppercase tracking-wide">Area / Venue</label><select id="fArea" class="mt-1.5 w-full bg-white border border-gray-200 rounded-2xl px-4 py-3.5 text-[14px] font-medium focus:border-rosebrand outline-none"><option>Jubilee Hills</option><option>Banjara Hills</option><option>Madhapur</option><option>Gachibowli</option><option>Srinagar Colony</option><option>Other Hyderabad</option></select></div>
+          <div><label for="fBudget" class="text-[12px] font-bold text-navy uppercase tracking-wide">Budget</label><select id="fBudget" class="mt-1.5 w-full bg-white border border-gray-200 rounded-2xl px-4 py-3.5 text-[14px] font-medium focus:border-rosebrand outline-none"><option>Under ₹5,000</option><option selected>₹5,000 – ₹10,000</option><option>₹10,000 – ₹20,000</option><option>₹20,000+</option></select></div>
+        </div>
+        <button type="submit" class="w-full bg-[#1DA851] hover:bg-[#128C43] text-white font-extrabold py-4 rounded-2xl text-[15px] shadow-lg transition flex items-center justify-center gap-2 shimmer btn-press"><i class="fa-brands fa-whatsapp text-xl"></i> Check Availability on WhatsApp</button>
+        <p class="text-center text-[12px] text-gray-400 flex items-center justify-center gap-1"><i class="fa-solid fa-lock"></i> Your details stay private • Reply within 15 mins (9AM–11PM)</p>
+      </form>
+    </div>
+    <div class="flex flex-col gap-5">
+      <div class="reveal bg-navy rounded-[28px] p-7 md:p-8 text-white shadow-luxe relative overflow-hidden">
+        <div class="absolute -bottom-16 -right-16 w-64 h-64 bg-celebration rounded-full blur-[60px] opacity-60 pointer-events-none"></div>
+        <h3 class="font-serif font-bold text-[24px] relative">Why 1200+ Hyderabad Families Trust Hayathi</h3>
+        <div class="mt-5 space-y-4 relative">
+          <div class="flex gap-3"><div class="w-10 h-10 rounded-full bg-green-500/20 flex items-center justify-center text-green-400 shrink-0"><i class="fa-solid fa-alarm-clock"></i></div><div><p class="font-bold text-[15px]">Punctual Setup Guarantee</p><p class="text-white/60 text-[13px]">Team reaches 3 hrs early. Late arrival = 10% instant discount. In writing.</p></div></div>
+          <div class="flex gap-3"><div class="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center text-gold shrink-0"><i class="fa-solid fa-indian-rupee-sign"></i></div><div><p class="font-bold text-[15px]">Transparent Local Rates</p><p class="text-white/60 text-[13px]">Itemised quote upfront. Same quality as ₹40k planners at half the price.</p></div></div>
+          <div class="flex gap-3"><div class="w-10 h-10 rounded-full bg-rosebrand/20 flex items-center justify-center text-blushdeep shrink-0"><i class="fa-solid fa-location-dot"></i></div><div><p class="font-bold text-[15px]">5-min from Road No.5</p><p class="text-white/60 text-[13px]">Walk-in store at Metro Pillar 1572 for last-minute helium & supplies.</p></div></div>
+        </div>
+        <div class="mt-6 grid grid-cols-2 gap-3 relative">
+          <a href="tel:+919398575668" class="flex items-center justify-center gap-2 bg-white text-navy font-bold py-3.5 rounded-full text-[14px] hover:bg-champagne transition btn-press"><i class="fa-solid fa-phone"></i> Call Now</a>
+          <a href="https://maps.google.com/?q=Metro+Pillar+1572+Jubilee+Hills+Hyderabad" target="_blank" rel="noopener" class="flex items-center justify-center gap-2 bg-white/10 border border-white/20 text-white font-bold py-3.5 rounded-full text-[14px] hover:bg-white/20 transition"><i class="fa-solid fa-diamond-turn-right"></i> Get Direction</a>
+        </div>
+      </div>
+      <div class="reveal bg-white rounded-[28px] p-6 md:p-7 border border-gray-100 shadow-card">
+        <h3 class="font-serif font-bold text-[20px] text-navy mb-3">Quick Answers <span class="text-[13px] font-sans font-medium text-gray-400">— tap to expand</span></h3>
+        <div class="space-y-2" id="faqList">
+          <div class="faq-item border border-gray-100 rounded-2xl overflow-hidden"><button type="button" class="faq-q w-full flex items-center justify-between px-4 py-3.5 text-left font-bold text-navy text-[14px]">Do you do same-day / next-day setup? <span class="faq-icon w-7 h-7 rounded-full bg-blush text-rosebrand flex items-center justify-center shrink-0"><i class="fa-solid fa-plus text-[12px]"></i></span></button><div class="faq-answer px-4"><p class="pb-4 text-[13px] text-gray-500">Yes! If the slot is open, we can set up within 4–6 hours in Jubilee Hills, Banjara Hills & nearby. WhatsApp us immediately — same-day charges may be minimal.</p></div></div>
+          <div class="faq-item border border-gray-100 rounded-2xl overflow-hidden"><button type="button" class="faq-q w-full flex items-center justify-between px-4 py-3.5 text-left font-bold text-navy text-[14px]">What if my event gets postponed? <span class="faq-icon w-7 h-7 rounded-full bg-blush text-rosebrand flex items-center justify-center shrink-0"><i class="fa-solid fa-plus text-[12px]"></i></span></button><div class="faq-answer px-4"><p class="pb-4 text-[13px] text-gray-500">Your 30% advance is 100% adjustable. Reschedule once free of charge up to 48 hrs before (subject to slot availability).</p></div></div>
+          <div class="faq-item border border-gray-100 rounded-2xl overflow-hidden"><button type="button" class="faq-q w-full flex items-center justify-between px-4 py-3.5 text-left font-bold text-navy text-[14px]">Do you provide helium balloons at store? <span class="faq-icon w-7 h-7 rounded-full bg-blush text-rosebrand flex items-center justify-center shrink-0"><i class="fa-solid fa-plus text-[12px]"></i></span></button><div class="faq-answer px-4"><p class="pb-4 text-[13px] text-gray-500">Yes — walk in 9AM–11PM any day. Foil numbers, latex bunches & helium filling ready in 15 mins at Metro Pillar 1572, Jubilee Hills.</p></div></div>
+          <div class="faq-item border border-gray-100 rounded-2xl overflow-hidden"><button type="button" class="faq-q w-full flex items-center justify-between px-4 py-3.5 text-left font-bold text-navy text-[14px]">What areas do you serve? <span class="faq-icon w-7 h-7 rounded-full bg-blush text-rosebrand flex items-center justify-center shrink-0"><i class="fa-solid fa-plus text-[12px]"></i></span></button><div class="faq-answer px-4"><p class="pb-4 text-[13px] text-gray-500">Jubilee Hills, Banjara Hills, Madhapur, Gachibowli, Srinagar Colony and across Greater Hyderabad. Transport is included transparently in your quote.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" class="bg-gradient-to-b from-white to-cream border-y border-gold/20 py-12 md:py-16 overflow-hidden scroll-mt-16">
+  <div class="max-w-7xl mx-auto px-4 md:px-6">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-6 reveal">
+      <div class="text-center md:text-left"><p class="text-[12px] font-extrabold tracking-[0.25em] uppercase text-celebration">Authentic • Local • Verified</p><h2 class="font-serif font-black text-[30px] md:text-[44px] text-navy mt-2">Loved Across <span class="italic text-rosebrand">Hyderabad</span></h2></div>
+      <div class="flex items-center gap-4 bg-white rounded-2xl px-6 py-4 shadow-card border border-gray-100">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" class="w-10 h-10" alt="Google" loading="lazy">
+        <div><p class="font-extrabold text-navy text-[18px]">4.6 <span class="text-gold text-[15px]">★★★★★</span></p><p class="text-[12px] text-gray-500">Based on 94+ Google reviews</p></div>
+        <a href="https://wa.me/919398575668?text=Hi!%20Please%20share%20your%20Google%20review%20link%20-%20I%20want%20to%20read%20more%20reviews." target="_blank" rel="noopener" class="ml-2 bg-navy text-white text-[12px] font-bold px-4 py-2.5 rounded-full hover:bg-celebration transition whitespace-nowrap">Read All</a>
+      </div>
+    </div>
+    <div class="relative mt-8 reveal">
+      <div class="overflow-hidden rounded-[24px]"><div id="reviewTrack" class="review-track flex gap-4"></div></div>
+      <div class="flex items-center justify-center gap-3 mt-6">
+        <button id="revPrev" aria-label="Previous reviews" class="w-11 h-11 rounded-full bg-white border border-gray-200 flex items-center justify-center text-navy hover:bg-navy hover:text-white transition shadow"><i class="fa-solid fa-arrow-left"></i></button>
+        <div id="revDots" class="flex gap-1.5 items-center"></div>
+        <button id="revNext" aria-label="Next reviews" class="w-11 h-11 rounded-full bg-navy flex items-center justify-center text-white hover:bg-celebration transition shadow"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STORE -->
+<section id="store" class="max-w-7xl mx-auto px-4 md:px-6 py-12 md:py-16 scroll-mt-16">
+  <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 reveal">
+    <div><p class="text-[12px] font-extrabold tracking-[0.25em] uppercase text-golddeep">Walk-in Store • Road No.5, Jubilee Hills</p><h2 class="font-serif font-black text-[30px] md:text-[44px] text-navy mt-2">Party Supplies, <span class="italic text-celebration">Ready in 15 Mins</span></h2><p class="text-gray-500 text-[14px] mt-2">Tap <strong class="text-navy">+ Add</strong> to build your list → order everything in one WhatsApp message. Open till 11 PM.</p></div>
+    <button id="cartBtn" class="flex items-center justify-center gap-2 bg-navy text-white font-bold px-6 py-3.5 rounded-full text-[14px] shadow-luxe hover:bg-celebration transition relative shrink-0 btn-press"><i class="fa-solid fa-basket-shopping"></i> My List <span id="cartCount" class="bg-gold text-navy text-[12px] font-extrabold w-6 h-6 rounded-full flex items-center justify-center">0</span></button>
+  </div>
+  <div id="storeGrid" class="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-5 mt-6"></div>
+  <div class="mt-6 bg-navy rounded-[20px] p-5 flex flex-col md:flex-row items-center justify-between gap-3 text-white reveal">
+    <p class="text-[14px] font-semibold flex items-center gap-2"><i class="fa-solid fa-truck-fast text-champagne"></i> Need helium today? Walk in 9AM–11PM at Metro Pillar 1572 — filling in 15 mins.</p>
+    <a href="tel:+919398575668" class="bg-white text-navy font-bold px-6 py-3 rounded-full text-[13px] hover:bg-champagne transition shrink-0">Call Store: +91 93985 75668</a>
+  </div>
+</section>
+
+<!-- LOCATION & FOOTER -->
+<section id="visit" class="bg-navy text-white pt-12 md:pt-16 pb-8 relative overflow-hidden">
+  <div class="absolute inset-0 opacity-[0.06] pointer-events-none" style="background-image:radial-gradient(white 1px, transparent 1px);background-size:20px 20px"></div>
+  <div class="max-w-7xl mx-auto px-4 md:px-6 relative">
+    <div class="grid lg:grid-cols-2 gap-6">
+      <div class="reveal">
+        <p class="text-[12px] font-extrabold tracking-[0.25em] uppercase text-champagne">Visit Our Store</p>
+        <h2 class="font-serif font-black text-[28px] md:text-[40px] mt-2 leading-tight">Find Us at <span class="gold-text">Metro Pillar 1572</span></h2>
+        <div class="mt-5 space-y-4 text-[14px]">
+          <div class="flex gap-3"><div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-gold shrink-0"><i class="fa-solid fa-location-dot"></i></div><p class="text-white/80 leading-relaxed"><strong class="text-white">Hayathi Balloons & Party Store,</strong><br>Shop No 22/A, Metro Pillar No 1572, Jubilee Hills,<br>Hyderabad, Telangana 500033<br><span class="text-champagne text-[13px]">Near Road No. 5 & Annapurna Studios Annexe</span></p></div>
+          <div class="flex gap-3"><div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-gold shrink-0"><i class="fa-regular fa-clock"></i></div><p class="text-white/80"><strong class="text-white">Open 7 Days: 9:00 AM – 11:00 PM</strong><br><span class="text-[13px]">Walk-ins welcome • Sundays & festivals open</span></p></div>
+          <div class="flex gap-3"><div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-gold shrink-0"><i class="fa-solid fa-phone"></i></div><p class="text-white/80"><a href="tel:+919398575668" class="text-white font-bold text-[16px] hover:text-champagne">+91 93985 75668</a><br><span class="text-[13px]">Call or WhatsApp — replies in ~15 mins</span></p></div>
+        </div>
+        <div class="mt-5"><p class="text-[12px] font-bold tracking-widest uppercase text-white/50 mb-2">We Serve</p>
+          <div class="flex flex-wrap gap-2"><span class="bg-white/10 border border-white/10 rounded-full px-4 py-1.5 text-[12px] font-semibold">Jubilee Hills</span><span class="bg-white/10 border border-white/10 rounded-full px-4 py-1.5 text-[12px] font-semibold">Banjara Hills</span><span class="bg-white/10 border border-white/10 rounded-full px-4 py-1.5 text-[12px] font-semibold">Madhapur</span><span class="bg-white/10 border border-white/10 rounded-full px-4 py-1.5 text-[12px] font-semibold">Gachibowli</span><span class="bg-white/10 border border-white/10 rounded-full px-4 py-1.5 text-[12px] font-semibold">Srinagar Colony</span><span class="bg-gold/20 border border-gold/40 rounded-full px-4 py-1.5 text-[12px] font-semibold text-champagne">+ Greater Hyderabad</span></div>
+        </div>
+        <div class="mt-6 flex flex-col sm:flex-row gap-3">
+          <a href="https://wa.me/919398575668?text=Hi%20Hayathi!%20I%20want%20to%20visit%20your%20store%20today." target="_blank" rel="noopener" class="flex-1 inline-flex justify-center items-center gap-2 bg-[#1DA851] font-bold py-4 rounded-full hover:bg-[#128C43] transition btn-press"><i class="fa-brands fa-whatsapp text-lg"></i> WhatsApp Us</a>
+          <a href="https://maps.google.com/?q=Jubilee+Hills+Road+No+5+Metro+Pillar+1572+Hyderabad" target="_blank" rel="noopener" class="flex-1 inline-flex justify-center items-center gap-2 bg-white text-navy font-bold py-4 rounded-full hover:bg-champagne transition btn-press"><i class="fa-solid fa-diamond-turn-right text-celebration"></i> Open in Maps</a>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="rounded-[24px] overflow-hidden border-4 border-white/10 shadow-2xl h-[320px] md:h-[420px] relative bg-white">
+          <iframe title="Hayathi Balloons Location Map - Jubilee Hills Hyderabad" src="https://www.google.com/maps?q=Road+No+5,+Jubilee+Hills,+Hyderabad,+Telangana+500033&output=embed" class="w-full h-full border-0" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="absolute bottom-3 left-3 right-3 md:left-4 md:right-auto glass rounded-2xl px-4 py-3 flex items-center gap-3 shadow-card">
+            <div class="w-10 h-10 rounded-full bg-navy text-white flex items-center justify-center shrink-0"><i class="fa-solid fa-store"></i></div>
+            <div><p class="font-bold text-navy text-[13px]">Hayathi Balloons & Party Store</p><p class="text-[11px] text-gray-500">2 min from Annapurna Studios • Parking available</p></div>
+          </div>
+        </div>
+        <div class="grid grid-cols-3 gap-3 mt-4">
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-4 text-center"><i class="fa-solid fa-truck-fast text-champagne text-xl"></i><p class="text-[12px] font-bold mt-2">Home Delivery<br><span class="font-normal text-white/60">Same-day nearby</span></p></div>
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-4 text-center"><i class="fa-solid fa-credit-card text-champagne text-xl"></i><p class="text-[12px] font-bold mt-2">UPI / Cards<br><span class="font-normal text-white/60">30% advance only</span></p></div>
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-4 text-center"><i class="fa-solid fa-language text-champagne text-xl"></i><p class="text-[12px] font-bold mt-2">Telugu • Hindi<br><span class="font-normal text-white/60">English support</span></p></div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-10 pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-[13px] text-white/50">
+      <div class="flex items-center gap-2"><div class="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center text-champagne"><i class="fa-solid fa-balloon"></i></div><p>© 2026 Hayathi Balloons & Party Store. All rights reserved. • Jubilee Hills, Hyderabad</p></div>
+      <div class="flex gap-5 font-semibold text-white/70"><a href="#services" class="hover:text-white">Services</a><a href="#setups" class="hover:text-white">Setups</a><a href="#reviews" class="hover:text-white">Reviews</a><a href="#booking" class="hover:text-white">Book Date</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="fixed inset-0 z-[100] hidden items-center justify-center p-4 bg-navy/80 backdrop-blur-md">
+  <div class="bg-white rounded-[26px] overflow-hidden max-w-3xl w-full max-h-[92vh] overflow-y-auto shadow-2xl relative">
+    <button id="lbClose" aria-label="Close" class="absolute top-3 right-3 z-10 w-10 h-10 bg-navy/80 backdrop-blur text-white rounded-full flex items-center justify-center hover:bg-rosebrand transition"><i class="fa-solid fa-xmark"></i></button>
+    <div class="grid md:grid-cols-2">
+      <img id="lbImg" src="" alt="Setup detail" class="w-full h-[280px] md:h-full object-cover min-h-[280px]">
+      <div class="p-6 md:p-8">
+        <span id="lbTag" class="inline-block bg-blush text-rosebrand text-[11px] font-extrabold px-3 py-1.5 rounded-full tracking-wide uppercase"></span>
+        <h3 id="lbTitle" class="font-serif font-bold text-[26px] text-navy mt-3 leading-tight"></h3>
+        <p id="lbLoc" class="text-[13px] text-gray-500 mt-1"></p>
+        <div class="flex items-center gap-2 mt-3 text-[13px]"><span class="text-gold font-bold">★★★★★</span><span class="text-gray-500">Verified Hayathi setup</span></div>
+        <div class="mt-4 bg-cream border border-gold/30 rounded-2xl p-4">
+          <p class="text-[12px] font-bold uppercase tracking-widest text-golddeep">What's Included</p>
+          <ul id="lbIncludes" class="mt-2 space-y-1.5 text-[13px] text-gray-700"></ul>
+          <p class="mt-3 pt-3 border-t border-gold/20 font-serif font-black text-[22px] text-navy"><span id="lbPrice"></span> <span class="text-[12px] font-sans font-medium text-gray-400">approx • final quote on WhatsApp</span></p>
+        </div>
+        <a id="lbBook" href="#" target="_blank" rel="noopener" class="mt-4 w-full inline-flex justify-center items-center gap-2 bg-[#1DA851] text-white font-bold py-4 rounded-full hover:bg-[#128C43] transition btn-press"><i class="fa-brands fa-whatsapp text-lg"></i> Book This Look</a>
+        <p class="text-center text-[11px] text-gray-400 mt-2">We can recreate in your colours & budget</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CART DRAWER -->
+<div id="cartDrawer" class="fixed inset-0 z-[100] hidden">
+  <div id="cartOverlay" class="absolute inset-0 bg-navy/60 backdrop-blur-sm"></div>
+  <div class="absolute right-0 top-0 bottom-0 w-full max-w-md bg-linen shadow-2xl flex flex-col">
+    <div class="bg-navy text-white p-6 flex items-center justify-between"><div><h3 class="font-serif font-bold text-[22px]">Your Party List</h3><p class="text-white/60 text-[13px]">Review & order via WhatsApp</p></div><button id="cartClose" aria-label="Close cart" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-rosebrand transition"><i class="fa-solid fa-xmark"></i></button></div>
+    <div id="cartItems" class="flex-1 overflow-y-auto p-5 space-y-3"></div>
+    <div class="p-5 bg-white border-t border-gray-100"><div class="flex justify-between items-center font-bold text-navy mb-3"><span>Estimated Total</span><span id="cartTotal" class="font-serif text-[22px]">₹0</span></div><button id="cartOrder" class="w-full bg-[#1DA851] text-white font-bold py-4 rounded-full hover:bg-[#128C43] transition flex items-center justify-center gap-2 btn-press"><i class="fa-brands fa-whatsapp text-lg"></i> Order on WhatsApp</button><p class="text-center text-[11px] text-gray-400 mt-2">Pay at store or UPI • Ready in 15 mins</p></div>
+  </div>
+</div>
+
+<!-- STICKY MOBILE BAR -->
+<div class="fixed bottom-0 left-0 right-0 z-[60] md:hidden bg-white/95 backdrop-blur-xl border-t border-gold/30 px-3 py-2.5 flex gap-2 shadow-[0_-8px_30px_rgba(0,0,0,0.1)]">
+  <a href="tel:+919398575668" class="flex-1 flex items-center justify-center gap-2 border-2 border-navy text-navy font-extrabold py-3 rounded-full text-[14px] btn-press"><i class="fa-solid fa-phone"></i> Call Now</a>
+  <a href="https://wa.me/919398575668?text=Hi!%20I%20want%20to%20check%20date%20availability." target="_blank" rel="noopener" class="flex-[1.3] flex items-center justify-center gap-2 bg-[#1DA851] text-white font-extrabold py-3 rounded-full text-[14px] shadow-lg pulse-ring"><i class="fa-brands fa-whatsapp text-lg"></i> Check Date</a>
+</div>
+
+<!-- FLOATING DESKTOP -->
+<div class="hidden md:flex fixed bottom-6 right-6 z-[60] flex-col gap-3 items-end">
+  <button id="topBtn" aria-label="Back to top" class="w-11 h-11 bg-white border border-gray-200 rounded-full shadow-card items-center justify-center text-navy hover:bg-navy hover:text-white transition hidden"><i class="fa-solid fa-arrow-up"></i></button>
+  <a href="https://wa.me/919398575668?text=Hi%20Hayathi!%20I%20want%20balloon%20decoration.%20Please%20help." target="_blank" rel="noopener" class="group flex items-center gap-3 bg-[#1DA851] hover:bg-[#128C43] text-white rounded-full pl-4 pr-2 py-2 shadow-2xl transition pulse-ring"><span class="text-[13px] font-bold">Chat • Replies in 15 mins</span><span class="w-11 h-11 bg-white/20 rounded-full flex items-center justify-center text-2xl"><i class="fa-brands fa-whatsapp"></i></span></a>
+</div>
+<button id="topBtnM" aria-label="Back to top" class="md:hidden fixed bottom-[84px] right-4 z-[60] w-10 h-10 bg-navy text-white rounded-full shadow-xl items-center justify-center hidden"><i class="fa-solid fa-arrow-up text-sm"></i></button>
+
+<script>
+// ---------- DATA ----------
+const galleryData = [
+  {cat:'first', tag:'1st Birthday', title:'Pastel Peach 1st Birthday Arch', loc:'Jubilee Hills • Home Terrace', price:'₹8,999', img:'https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=800&q=80', includes:['8ft organic pastel garland (90 balloons)','ONE foil + fairy curtain backdrop','Cake table + smash-cake corner']},
+  {cat:'milestone', tag:'50th Milestone', title:'Golden Luxe 50th Celebration', loc:'Banjara Hills • Banquet Hall', price:'₹14,999', img:'https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=800&q=80', includes:['Chrome gold + black double arch','50 LED marquee numbers','Stage + entry walkway styling']},
+  {cat:'kids', tag:'Kids Theme', title:'Jungle Safari 5th Birthday', loc:'Madhapur • Apartment Clubhouse', price:'₹9,499', img:'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80', includes:['Jungle garland + animal cutouts','Cave entry arch + photo booth','Themed cake table + props']},
+  {cat:'baby', tag:'Baby Shower', title:'Blush Pink Mom-to-Be Brunch', loc:'Gachibowli • Villa', price:'₹7,999', img:'https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=800&q=80', includes:['Blush + white organic half-arch','BABY boxes + flower accents','Throne chair styling for mom']},
+  {cat:'milestone', tag:'30th Milestone', title:'Chrome Blue 30th Bash', loc:'Srinagar Colony • Terrace', price:'₹8,499', img:'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=800&q=80', includes:['Blue chrome + silver garland','30 foil + LED name light','Bar counter balloon bunches']},
+  {cat:'kids', tag:'Kids Theme', title:'Princess Pink 3rd Birthday', loc:'Jubilee Hills • Home', price:'₹7,499', img:'https://images.unsplash.com/photo-1464349153735-7db50ed83c84?auto=format&fit=crop&w=800&q=80', includes:['Pink castle backdrop + crown','Princess arch + wand favours','Cake smash photo corner']},
+  {cat:'anniversary', tag:'Anniversary', title:'Rose-Gold Anniversary Dinner', loc:'Banjara Hills • Rooftop', price:'₹6,999', img:'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80', includes:['Heart balloon wall + LOVE letters','Candle table styling + petals','Fairy-light canopy']},
+  {cat:'corporate', tag:'Corporate', title:'Grand Store Launch Arch', loc:'Madhapur • Retail Store', price:'Custom', img:'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80', includes:['12ft branded entry arch','Logo backdrop + ribbon cut','100 helium balloons giveaway']},
+  {cat:'first', tag:'1st Birthday', title:'Blue & Gold Prince 1st Birthday', loc:'Gachibowli • Banquet', price:'₹12,999', img:'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80', includes:['Royal blue + gold stage','Prince cutout + throne','Full banquet entry styling']},
+];
+const reviewsData = [
+  {name:'Sravani Reddy', area:'Jubilee Hills', stars:5, text:"Booked for my daughter's 1st birthday. Team arrived 3 hours early and the pastel arch looked straight out of Pinterest! Transparent billing — exactly as quoted.", img:'https://i.pravatar.cc/100?img=47', tag:'1st Birthday'},
+  {name:'Mohammed Imran', area:'Banjara Hills', stars:5, text:'50th birthday for my father. Chrome gold setup was premium and finished right on time before guests arrived. Highly professional team.', img:'https://i.pravatar.cc/100?img=12', tag:'50th Milestone'},
+  {name:'Ananya Rao', area:'Madhapur', stars:5, text:'Last-minute jungle theme order — they arranged everything in 5 hours! Kids went crazy for the cutouts. Best decorator near Madhapur, genuinely.', img:'https://i.pravatar.cc/100?img=32', tag:'Kids Theme'},
+  {name:'Kavya & Arjun', area:'Gachibowli', stars:4, text:'Beautiful blush baby shower at our villa. Mom-to-be chair styling was so thoughtful. Slight delay due to rain but they informed us throughout.', img:'https://i.pravatar.cc/100?img=45', tag:'Baby Shower'},
+  {name:'Vikram Malhotra', area:'Srinagar Colony', stars:5, text:'Walked into the store at 8pm for helium + foil numbers — ready in 15 mins! They even helped with DIY tips. Lifesavers for last-minute parties.', img:'https://i.pravatar.cc/100?img=13', tag:'Walk-in Store'},
+  {name:'Divya Nair', area:'Jubilee Hills', stars:5, text:'Anniversary surprise room decor was magical — rose petals, candles, heart wall. My husband was speechless. Worth every rupee!', img:'https://i.pravatar.cc/100?img=26', tag:'Anniversary'},
+];
+const storeData = [
+  {name:'Helium Foil Number (Large)', price:349, unit:'per pc', img:'https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=400&q=70', badge:'BESTSELLER'},
+  {name:'Latex Balloon Bunch (10 pcs)', price:499, unit:'helium filled', img:'https://images.unsplash.com/photo-1496843916299-590492c751f4?auto=format&fit=crop&w=400&q=70', badge:'READY 15 MIN'},
+  {name:'DIY Birthday Kit (50 pcs)', price:799, unit:'full kit', img:'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=400&q=70', badge:'DIY'},
+  {name:'Chrome Balloon Pack (20)', price:599, unit:'premium', img:'https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=400&q=70', badge:'PREMIUM'},
+  {name:'LED Fairy Lights 10m', price:449, unit:'warm white', img:'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=400&q=70', badge:'DECOR'},
+  {name:'Cake Topper + Sash Set', price:299, unit:'custom text', img:'https://images.unsplash.com/photo-1464349153735-7db50ed83c84?auto=format&fit=crop&w=400&q=70', badge:'CUSTOM'},
+  {name:'Photo Props (20 pcs)', price:349, unit:'theme pack', img:'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=400&q=70', badge:'FUN'},
+  {name:'Shimmer Curtain (2 pcs)', price:249, unit:'gold/rose', img:'https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=400&q=70', badge:'BACKDROP'},
+];
+
+// ---------- GALLERY ----------
+const grid = document.getElementById('galleryGrid');
+function renderGallery(filter='all'){
+  grid.innerHTML='';
+  galleryData.filter(g=>filter==='all'||g.cat===filter).forEach((g,i)=>{
+    const d=document.createElement('div');
+    d.className='group bg-white rounded-[20px] md:rounded-[24px] overflow-hidden shadow-card border border-gray-100 card-hover cursor-pointer';
+    d.innerHTML=
+    '<div class="relative overflow-hidden img-zoom h-[190px] md:h-[280px]">'+
+      '<img loading="lazy" src="'+g.img+'" alt="'+g.title+'" class="w-full h-full object-cover">'+
+      '<span class="absolute top-2.5 left-2.5 bg-navy/90 backdrop-blur text-white text-[10px] md:text-[11px] font-bold px-3 py-1.5 rounded-full">'+g.tag+'</span>'+
+      '<span class="absolute inset-0 bg-gradient-to-t from-navy/50 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end justify-center pb-4"><span class="bg-white text-navy text-[12px] font-bold px-4 py-2 rounded-full">View & Book →</span></span>'+
+    '</div>'+
+    '<div class="p-3.5 md:p-5"><h3 class="font-serif font-bold text-[15px] md:text-[19px] text-navy leading-tight">'+g.title+'</h3>'+
+    '<p class="text-[11px] md:text-[12px] text-gray-500 mt-1 flex items-center gap-1"><i class="fa-solid fa-location-dot text-rosebrand"></i> '+g.loc+'</p>'+
+    '<div class="flex items-center justify-between mt-2.5"><p class="font-extrabold text-navy text-[14px] md:text-[16px]">'+g.price+' <span class="text-[10px] font-medium text-gray-400">approx</span></p><span class="text-[11px] md:text-[12px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full"><i class="fa-solid fa-circle-check"></i> Verified</span></div></div>';
+    d.onclick=()=>openLightbox(g);
+    grid.appendChild(d);
+    if(window.gsap){ gsap.from(d,{y:24,opacity:0,duration:.5,delay:i*0.05,ease:'power2.out'}); }
+  });
+}
+renderGallery();
+document.querySelectorAll('.filter-btn').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('.filter-btn').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active');
+  renderGallery(b.dataset.filter);
+}));
+
+// Lightbox
+const lb=document.getElementById('lightbox');
+function openLightbox(g){
+  document.getElementById('lbImg').src=g.img;
+  document.getElementById('lbImg').alt=g.title;
+  document.getElementById('lbTag').textContent=g.tag;
+  document.getElementById('lbTitle').textContent=g.title;
+  document.getElementById('lbLoc').innerHTML='<i class="fa-solid fa-location-dot text-rosebrand"></i> '+g.loc;
+  document.getElementById('lbPrice').textContent=g.price;
+  document.getElementById('lbIncludes').innerHTML=g.includes.map(x=>'<li class="flex gap-2"><i class="fa-solid fa-check text-green-600 mt-0.5"></i> '+x+'</li>').join('');
+  document.getElementById('lbBook').href='https://wa.me/919398575668?text='+encodeURIComponent('Hi! I loved "'+g.title+'" ('+g.loc+') approx '+g.price+'. Is a similar look available? My date: __');
+  lb.classList.remove('hidden'); lb.classList.add('flex'); document.body.style.overflow='hidden';
+  if(window.confetti) confetti({particleCount:20,spread:50,origin:{y:.5},colors:['#C9A24B','#E85D75']});
+}
+document.getElementById('lbClose').onclick=()=>{lb.classList.add('hidden');lb.classList.remove('flex');document.body.style.overflow='';};
+lb.addEventListener('click',e=>{if(e.target===lb){lb.classList.add('hidden');lb.classList.remove('flex');document.body.style.overflow='';}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){lb.classList.add('hidden');lb.classList.remove('flex');closeCart();document.body.style.overflow='';}});
+
+// ---------- REVIEWS ----------
+const track=document.getElementById('reviewTrack'), dots=document.getElementById('revDots');
+let revIdx=0;
+function cardsPerView(){return window.innerWidth>=1024?3:window.innerWidth>=640?2:1;}
+function renderReviews(){
+  track.innerHTML=reviewsData.map(r=>
+    '<div class="shrink-0 bg-white rounded-[24px] p-6 border border-gray-100 shadow-card" style="width:calc('+(100/cardsPerView())+'% - 12px);min-width:280px">'+
+    '<div class="flex items-center justify-between"><span class="bg-cream border border-gold/30 text-golddeep text-[11px] font-bold px-3 py-1 rounded-full">'+r.tag+'</span><span class="text-gold text-[13px]">'+'★'.repeat(r.stars)+'☆'.repeat(5-r.stars)+'</span></div>'+
+    '<p class="text-[14px] text-gray-600 leading-relaxed mt-3">“'+r.text+'”</p>'+
+    '<div class="flex items-center gap-3 mt-4 pt-4 border-t border-gray-100"><img loading="lazy" src="'+r.img+'" class="w-11 h-11 rounded-full object-cover" alt="'+r.name+'"><div><p class="font-bold text-navy text-[14px]">'+r.name+'</p><p class="text-[12px] text-gray-400 flex items-center gap-1"><i class="fa-solid fa-location-dot"></i> '+r.area+' • <i class="fa-solid fa-circle-check text-green-500"></i> Google</p></div></div></div>'
+  ).join('');
+  renderDots();
+}
+function renderDots(){
+  const pages=Math.ceil(reviewsData.length/cardsPerView());
+  dots.innerHTML='';
+  for(let i=0;i<pages;i++){
+    const d=document.createElement('button');
+    d.setAttribute('aria-label','Go to review page '+(i+1));
+    d.className='h-2 rounded-full transition-all '+(i===revIdx?'w-8 bg-navy':'w-2 bg-gray-300');
+    d.onclick=()=>{revIdx=i;updateRev();};
+    dots.appendChild(d);
+  }
+}
+function updateRev(){
+  const pages=Math.ceil(reviewsData.length/cardsPerView());
+  if(revIdx>=pages)revIdx=0;
+  if(revIdx<0)revIdx=pages-1;
+  const w=(track.children[0]?.offsetWidth+16)||0;
+  track.style.transform='translateX(-'+(revIdx*w*cardsPerView())+'px)';
+  renderDots();
+}
+document.getElementById('revNext').onclick=()=>{revIdx++;updateRev();};
+document.getElementById('revPrev').onclick=()=>{revIdx--;updateRev();};
+renderReviews();
+window.addEventListener('resize',()=>{renderReviews();updateRev();});
+let revTimer=setInterval(()=>{revIdx++;updateRev();},5000);
+track.addEventListener('mouseenter',()=>clearInterval(revTimer));
+track.addEventListener('mouseleave',()=>{clearInterval(revTimer); revTimer=setInterval(()=>{revIdx++;updateRev();},5000);});
+
+// ---------- STORE + CART ----------
+let cart={};
+const storeGrid=document.getElementById('storeGrid');
+storeGrid.innerHTML=storeData.map((s,i)=>
+  '<div class="bg-white rounded-[20px] overflow-hidden border border-gray-100 shadow-card card-hover flex flex-col">'+
+  '<div class="relative h-[130px] md:h-[180px] img-zoom overflow-hidden"><img loading="lazy" src="'+s.img+'" class="w-full h-full object-cover" alt="'+s.name+'"><span class="absolute top-2 left-2 bg-navy text-white text-[9px] md:text-[10px] font-extrabold px-2.5 py-1 rounded-full">'+s.badge+'</span></div>'+
+  '<div class="p-3 md:p-4 flex-1 flex flex-col"><h4 class="font-bold text-navy text-[13px] md:text-[15px] leading-tight">'+s.name+'</h4><p class="text-[11px] text-gray-400">'+s.unit+'</p>'+
+  '<div class="flex items-center justify-between mt-auto pt-2.5"><p class="font-serif font-black text-[16px] md:text-[19px] text-navy">₹'+s.price+'</p><button onclick="addToCart('+i+')" class="bg-navy hover:bg-celebration text-white text-[12px] md:text-[13px] font-bold px-4 py-2 rounded-full transition btn-press">+ Add</button></div></div></div>'
+).join('');
+function addToCart(i){
+  cart[i]=(cart[i]||0)+1; updateCart();
+  if(window.confetti) confetti({particleCount:30,spread:60,origin:{y:.8},colors:['#C9A24B','#E85D75','#1E4B9B']});
+}
+function updateCart(){
+  const count=Object.values(cart).reduce((a,b)=>a+b,0);
+  document.getElementById('cartCount').textContent=count;
+  const box=document.getElementById('cartItems');
+  if(count===0){
+    box.innerHTML='<div class="text-center py-12 text-gray-400"><i class="fa-solid fa-basket-shopping text-4xl mb-3 block"></i><p class="font-bold text-navy">Your list is empty</p><p class="text-[13px]">Add helium, kits & decor → order in one tap</p></div>';
+    document.getElementById('cartTotal').textContent='₹0';return;
+  }
+  let total=0; box.innerHTML='';
+  Object.entries(cart).forEach(([i,q])=>{
+    const s=storeData[i]; total+=s.price*q;
+    const row=document.createElement('div');
+    row.className='bg-white rounded-2xl p-3 flex gap-3 items-center border border-gray-100';
+    row.innerHTML='<img loading="lazy" src="'+s.img+'" class="w-14 h-14 rounded-xl object-cover" alt=""><div class="flex-1"><p class="font-bold text-navy text-[13px] leading-tight">'+s.name+'</p><p class="text-[12px] text-gray-500">₹'+s.price+' × '+q+'</p></div><div class="flex items-center gap-2"><button onclick="chCart('+i+',-1)" class="w-7 h-7 rounded-full bg-gray-100 font-bold">−</button><span class="font-bold text-[14px] w-4 text-center">'+q+'</span><button onclick="chCart('+i+',1)" class="w-7 h-7 rounded-full bg-navy text-white font-bold">+</button></div>';
+    box.appendChild(row);
+  });
+  document.getElementById('cartTotal').textContent='₹'+total.toLocaleString('en-IN');
+}
+function chCart(i,d){cart[i]=(cart[i]||0)+d; if(cart[i]<=0)delete cart[i]; updateCart();}
+updateCart();
+const drawer=document.getElementById('cartDrawer');
+document.getElementById('cartBtn').onclick=()=>{drawer.classList.remove('hidden');document.body.style.overflow='hidden';};
+document.getElementById('cartClose').onclick=closeCart;
+document.getElementById('cartOverlay').onclick=closeCart;
+function closeCart(){drawer.classList.add('hidden');if(lb.classList.contains('hidden'))document.body.style.overflow='';}
+document.getElementById('cartOrder').onclick=()=>{
+  const entries=Object.entries(cart);
+  if(!entries.length){alert('Your list is empty — add some party goodies first!');return;}
+  let msg='Hi Hayathi! I want to order from your store:%0A'; let total=0;
+  entries.forEach(([i,q])=>{const s=storeData[i];total+=s.price*q;msg+='%0A• '+encodeURIComponent(s.name)+' × '+q+' = ₹'+(s.price*q);});
+  msg+='%0A%0AEstimated Total: ₹'+total+'%0AName: __%0APickup/Delivery: __';
+  window.open('https://wa.me/919398575668?text='+msg,'_blank');
+};
+
+// ---------- BOOKING FORM ----------
+const dateInput=document.getElementById('fDate');
+if(dateInput) dateInput.min=new Date().toISOString().split('T')[0];
+document.getElementById('bookingForm').addEventListener('submit',e=>{
+  e.preventDefault();
+  const n=document.getElementById('fName').value.trim(),
+        p=document.getElementById('fPhone').value.trim(),
+        d=document.getElementById('fDate').value,
+        o=document.getElementById('fOccasion').value,
+        a=document.getElementById('fArea').value,
+        b=document.getElementById('fBudget').value;
+  if(!n||!p||!d){alert('Please fill Name, Phone and Event Date to check availability.');return;}
+  const msg='Hi Hayathi Balloons! I\'m '+n+' ('+p+').%0A📅 Date: '+d+'%0A🎉 Occasion: '+encodeURIComponent(o)+'%0A📍 Venue/Area: '+encodeURIComponent(a)+'%0A💰 Budget: '+encodeURIComponent(b)+'%0A%0APlease confirm availability + share quote. Thank you!';
+  if(window.confetti) confetti({particleCount:120,spread:90,origin:{y:.6},colors:['#C9A24B','#E85D75','#1E4B9B','#4ADE80']});
+  setTimeout(()=>window.open('https://wa.me/919398575668?text='+msg,'_blank'),600);
+});
+function celebrate(e){
+  if(window.confetti) confetti({particleCount:80,spread:75,origin:{y:.7},colors:['#C9A24B','#E85D75','#1E4B9B']});
+}
+
+// ---------- FAQ ----------
+document.querySelectorAll('.faq-q').forEach(q=>q.addEventListener('click',()=>{
+  const item=q.parentElement; const wasOpen=item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(x=>x.classList.remove('open'));
+  if(!wasOpen)item.classList.add('open');
+}));
+
+// ---------- MENU / HEADER / COUNTERS / REVEAL ----------
+const menuBtn=document.getElementById('menuBtn');
+const mobileMenu=document.getElementById('mobileMenu');
+menuBtn.onclick=()=>{
+  mobileMenu.classList.toggle('hidden');
+  const icon=menuBtn.querySelector('i');
+  if(icon){icon.className=mobileMenu.classList.contains('hidden')?'fa-solid fa-bars':'fa-solid fa-xmark';}
+};
+document.querySelectorAll('#mobileMenu a').forEach(a=>a.onclick=()=>{mobileMenu.classList.add('hidden'); const ic=menuBtn.querySelector('i'); if(ic)ic.className='fa-solid fa-bars';});
+
+const header=document.getElementById('header');
+window.addEventListener('scroll',()=>{
+  header.classList.toggle('shadow-card',window.scrollY>10);
+  const show=window.scrollY>600;
+  ['topBtn','topBtnM'].forEach(id=>{
+    const el=document.getElementById(id);
+    if(el){el.classList.toggle('hidden',!show); el.classList.toggle('flex',show);}
+  });
+},{passive:true});
+document.getElementById('topBtn')?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+document.getElementById('topBtnM').addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+
+const counters=document.querySelectorAll('.counter');
+const cObs=new IntersectionObserver(es=>es.forEach(en=>{
+  if(en.isIntersecting){
+    const el=en.target,t=+el.dataset.target;let c=0;const step=Math.max(1,t/60);
+    const tmr=setInterval(()=>{c+=step;if(c>=t){el.textContent=t;clearInterval(tmr);}else el.textContent=Math.floor(c);},25);
+    cObs.unobserve(el);
+  }
+}),{threshold:.5});
+counters.forEach(c=>cObs.observe(c));
+
+try{
+  gsap.registerPlugin(ScrollTrigger);
+  document.querySelectorAll('.reveal').forEach(el=>{
+    gsap.to(el,{opacity:1,y:0,duration:.8,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 88%',once:true}});
+  });
+}catch(err){
+  const rObs=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){en.target.style.opacity=1;en.target.style.transform='none';rObs.unobserve(en.target);}}),{threshold:.1});
+  document.querySelectorAll('.reveal').forEach(el=>rObs.observe(el));
+}
+</script>
+</body>
+</html>
